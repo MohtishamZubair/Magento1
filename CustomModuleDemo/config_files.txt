@@ -1,0 +1,29 @@
+	<global>
+	<models></models>
+	<resources></resources>
+	<blocks></blocks>
+	<newproduct><!-- config values --></newproduct>
+	</global>
+	<adminhtml>
+	<menu></menu>
+	<acl></acl>
+	<events></events>
+	<translate></translate>
+	</adminhtml>
+	<frontend>
+	<routers></routers>
+	<events></events>
+	<translate></translate>
+	<layout></layout>
+	</frontend>
+	<default>
+	<config_vars><!-- config values --></config_vars>
+	</default>
+	
+				<catalog>
+					<rewrite>
+						<product_view_type_simple>
+							demo_dev_Block_ProductViewCase
+						</product_view_type_simple>
+					</rewrite>
+				</catalog>
