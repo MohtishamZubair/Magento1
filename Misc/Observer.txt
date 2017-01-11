@@ -1,0 +1,22 @@
+
+
+<config>    
+    <modules>
+        <Crazydeals_ResizeImageURL>
+            <version>0.1.0</version>
+        </Crazydeals_ResizeImageURL>
+    </modules>
+</config>
+<global>
+        <events>
+            <controller_front_init_routers>
+                <observers>
+                    <alanstormdotcom_configviewer_model_observer>
+                        <type>singleton</type>                          
+                        <class>Alanstormdotcom_Configviewer_Model_Observer</class>
+                        <method>checkForConfigRequest</method>
+                    </alanstormdotcom_configviewer_model_observer>
+                </observers>
+            </controller_front_init_routers>
+        </events>
+</global>

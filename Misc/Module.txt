@@ -1,0 +1,14 @@
+http://ec2-52-74-2-254.ap-southeast-1.compute.amazonaws.com
+/crazydeals/web/repository/archive.zip?ref=master
+
+http://ec2-52-74-2-254.ap-southeast-1.compute.amazonaws.com/crazydeals/web/repository/archive.zip?ref=1.7.1
+
+ <modules>
+        <Crazydeals_ResizeImageURL>
+        <version>0.1.1</version>
+        </Crazydeals_ResizeImageURL>
+    </modules>
+
+	<ResizeImageURL>
+		<class>Crazydeals_ResizeImageURL_Helper</class>
+	</ResizeImageURL>
