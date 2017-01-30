@@ -1,0 +1,21 @@
+<config>
+	 <global>
+		<blocks>
+			<mohtshm_layoutdemo>
+				<class>Mohtshm_LayoutDemo_Block</class>
+			</mohtshm_layoutdemo>
+		</blocks>
+	 </global>
+     <frontend>
+            <routers>
+				<mohtshm_layoutdemo>
+					<use>standard</use>
+					<args>
+						<module>Mohtshm_LayoutDemo</module>
+						<frontName>mohtshm_layoutdemo</frontName>
+					</args>
+				</mohtshm_layoutdemo>	
+            </routers>
+        </frontend>
+	
+</config>

@@ -1,0 +1,11 @@
+<config>
+    <global>
+        <helpers>
+            <catalog>
+                <rewrite>
+                    <image>Mohtshm_Rewrite_Helper_Image</image>
+                </rewrite>
+            </catalog>
+        </helpers>
+    </global>
+</config>
